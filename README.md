@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/9f8486be-26bf-44d0-812f-bd5f6ae333c1
-
-## Run Locally
 
 **Prerequisites:**  Node.js
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+nstallation & API Key Setup Guide
+To run your application locally or in a cloud container, follow these steps:
+1. Setup API Credentials
+This application utilizes server-side API routing to proxy requests and keep your keys secure.
+Go to Settings > Secrets inside your Google AI Studio workspace or create a .env file in the root directory.
+Bind your key to the variable:
+code
+Env
+GEMINI_API_KEY="YOUR_ACTUAL_GEMINI_API_KEY"
+2. Install Project Dependencies
+Run this command in your terminal to populate the package modules:
+code
+Bash
+npm install
+3. Start Development Server
+Boot your active application stream on standard port 3000:
+code
+Bash
+npm run dev
+4. Compile Production Builds
+Compile and bundle your assets for live deployments:
+code
+Bash
+npm run build
+npm run start
