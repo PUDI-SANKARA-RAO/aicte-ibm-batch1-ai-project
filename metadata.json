@@ -1,0 +1,6 @@
+{
+  "name": "Lecture Voice-to-Notes Generator",
+  "description": "Transform lectures into smart notes, summaries, flashcards, and quizzes instantly using AI.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
