@@ -52,11 +52,7 @@ Open that URL in your browser to experience the application.
 4. Advanced: Production Build & Deployment
 When you are ready to bundle production-ready client assets and compile the server code into a minified, high-performance back-end file, run:
 code
-Bash
-# Clean intermediate folders and build minified code
 npm run build
-
-# Start the compiled high-efficiency production app
 npm run start
 
 
